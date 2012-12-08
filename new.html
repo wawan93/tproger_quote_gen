@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Генератор цитат для "Типичного программиста"</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="css/style.css" rel="stylesheet" media="screen">
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+	<div id="container" class="hero-unit">
+		<h1>Генератор цитат для "Типичного программиста"</h1>
+		<div>
+			<ul class="nav nav-pills">
+			  <li class="active">
+			    <a href="new.html">Home</a>
+			  </li>
+			  <li><a href="about.html">About</a></li>
+			  <li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<hr>
+		
+		
+		<canvas id='fon' width='600' height='400'></canvas>
+		
+		<hr>
+		
+                <form id='inputForm' name='form1'>
+			<textarea cols="40" rows="5" id='inputPhrase' class="input-xxlarge" maxlength='310' autofocus placeholder='Сюда цитата!'></textarea>
+			<br/>
+			<input id='inputAuthor' type='text' maxlength='40' autocomplete='off' placeholder='Сюда автор!'><br/>
+			<input id='writeIt' class="btn btn-large btn-primary" type='button' value='Написать' title= 'Сгенерировать цитату'>
+			<input id='downloadIt' class="btn btn-large btn-warning" type='button' value='Скачать' title='Сохранить картинку'>
+			<input id='cancel' class="btn btn-large btn-danger" type='button' value='Сбросить' title= 'Сбросить'><br/>
+		</form>
+		
+                <div id="saveimage"></div>
+                
+	</div><script src="js/gen.js"></script>
+	</body>
+</html>

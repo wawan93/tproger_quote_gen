@@ -1,0 +1,12 @@
+#container {
+	display:block;
+	width:700px;
+	margin:auto;
+	padding:auto;
+}
+
+#container h1 {
+	font-size:30px;
+	margin:5px 0;
+	padding:5px 0;
+}
